@@ -1,0 +1,172 @@
+.home{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    border-bottom: 1px solid lightgray;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: chocolate;
+}
+
+.links{
+    width: 40%;
+}
+
+.links ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.links ul li{
+    list-style: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.links ul li:hover{
+    color: gray;
+}
+
+.active{
+    color: gray;
+}
+
+.action_button{
+    width: 20%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action_button button{
+    width: 45%;
+    height: 100%;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(99, 179, 206);
+    cursor: pointer;
+}
+
+body{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.search{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper{
+    flex: 2;
+    padding-left: 100px;
+    padding-top: 20px;
+    font-size: 1.5rem;
+}
+
+.lower{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.lower button{
+    width: 15%;
+    height: 40%;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    background:  rgb(99, 179, 206);
+    cursor: pointer;
+}
+
+.answer{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.card{
+    width: 40%;
+    height: 80%;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    transition: all 0.2s;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.2rem;
+    gap: 1rem;
+    padding-left: 20px;
+}
+
+.card h3{
+    font-size: 2rem;
+}
+.card:hover{
+    transform: scale(1.01);
+}
+
+.phone,.address{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgb(99, 179, 206);
+    padding: 5px;
+    border-radius: 10px;
+    color: gray;
+}
+
+.card button{
+    width: 35%;
+    height: 15%;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    background:  rgb(99, 179, 206);
+    cursor: pointer;
+}
+
+.thankyou{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.thankyou img{
+    height: 80%;
+}
+
